@@ -33,7 +33,7 @@ jobs:
         with:
           context: ./deploy/docker
           push: true
-          tags: rajburnwal07/pebblo:${{ env.VERSION }}
+          tags: daxaai/pebblo:${{ env.VERSION }}
           platforms: linux/amd64,linux/arm64
           file: ./deploy/docker/Dockerfile.base
           build-args: |
