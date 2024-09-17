@@ -26,7 +26,6 @@ jobs:
 
       - name: Get Release Tag
         run: |
-#             TAG=$(echo $GITHUB_REF | sed 's/refs\/tags\///')
              echo "VERSION=v1" >> $GITHUB_ENV
 
       - name: Build and push
